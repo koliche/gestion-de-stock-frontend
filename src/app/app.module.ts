@@ -10,6 +10,7 @@ import { InscriptionComponent } from './pages/inscription/inscription.component'
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { StatistiquesComponent } from './pages/statistiques/statistiques.component';
 import { MenuComponent } from './componants/menu/menu.component';
+import { HeaderComponent } from './componants/header/header.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { MenuComponent } from './componants/menu/menu.component';
     InscriptionComponent,
     DashboardComponent,
     StatistiquesComponent,
-    MenuComponent
+    MenuComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
